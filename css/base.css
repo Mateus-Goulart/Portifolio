@@ -18,6 +18,10 @@ img {
     border-radius: 12px 12px 0px 0px;
 }
 
+.bg-gradient{
+    background: linear-gradient(to bottom, #004bbb, #005be4, #0077ff,#0077ff,#005be4, #004bbb) !important;
+}
+
 .no-decoration{
     list-style: none;
 }
@@ -34,6 +38,12 @@ img {
 
 .caixa #texto {
     color: #005599;
+}
+
+
+.fundo_menu{
+    
+    background: linear-gradient(to bottom, #313796,#0c1cff,#0077ff,#0077ff,#0c1cff,#313796);
 }
 
 hr{
@@ -62,7 +72,7 @@ hr{
 }
 
 .barra-inferior {
-    background: linear-gradient(to bottom, #004bbb, #005be4, #0077ff,#0077ff,#005be4, #004bbb);
+    background: linear-gradient(to bottom,#313796, #004bbb, #005be4, #0077ff,#0077ff,#005be4, #004bbb, #313796);
     border:  #005599 3px solid;
     border-radius: 0px 0px 12px 12px;
 }
@@ -76,3 +86,21 @@ hr{
         height: 1150px;
     }
 }
+
+.social-icon:hover{
+    background-color: #0077ff !important;
+    color: antiquewhite !important;
+}
+
+a {
+    color: #e2e2e2 !important;
+}
+
+.text-primary{
+    color: #0077ff !important;
+}
+
+.link-special{
+    color: #0077ff !important; 
+}
+
